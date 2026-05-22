@@ -8,9 +8,8 @@
  * Inserter: true
  */
 ?>
-
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:100px;padding-bottom:100px"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
         <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"500","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
@@ -61,8 +60,8 @@
     <!-- /wp:group -->
 
     <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"custom-000000","textColor":"background","layout":{"type":"default"}} -->
-    <div class="wp-block-group alignfull has-background-color has-custom-000000-background-color has-text-color has-background has-link-color"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"center"}} -->
-        <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+    <div class="wp-block-group alignfull has-background-color has-custom-000000-background-color has-text-color has-background has-link-color"><!-- wp:group {"style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"center"}} -->
+        <div class="wp-block-group" style="padding-top:100px;padding-bottom:100px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
             <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
                 <h2 class="wp-block-heading has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">Our Expertise Practice Areas</h2>
                 <!-- /wp:heading -->
@@ -91,8 +90,8 @@
             </div>
             <!-- /wp:query -->
 
-            <!-- wp:buttons {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}}} -->
-            <div class="wp-block-buttons" style="padding-top:50px;padding-bottom:50px"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
+            <!-- wp:buttons {"style":{"spacing":{"padding":{"top":"50px","bottom":"0px"}}}} -->
+            <div class="wp-block-buttons" style="padding-top:50px;padding-bottom:0px"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
                 <div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase">View All Services ➔</a></div>
                 <!-- /wp:button -->
 
