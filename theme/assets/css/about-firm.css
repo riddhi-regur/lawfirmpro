@@ -1,0 +1,40 @@
+.lfp-about-image img {
+	border-radius: 28px;
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+}
+
+.lfp-about-title {
+	font-size: clamp(38px, 5vw, 58px);
+	line-height: 1.15;
+	margin-bottom: 24px;
+	font-family: "Playfair Display", serif;
+}
+
+.lfp-about-text {
+	font-size: 18px;
+	line-height: 1.9;
+	color: #64748b;
+	margin-bottom: 32px;
+}
+
+.lfp-about-list {
+	margin-bottom: 40px;
+}
+
+.lfp-about-list li {
+	margin-bottom: 14px;
+	font-size: 17px;
+}
+
+@media (max-width: 991px) {
+
+	.lfp-about-image img {
+		height: 420px;
+	}
+
+	.lfp-about-title {
+		font-size: 42px;
+	}
+}
