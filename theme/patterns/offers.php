@@ -27,8 +27,8 @@
 
         <!-- wp:query {"queryId":117,"query":{"perPage":3,"pages":0,"offset":0,"postType":"offer","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
         <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
-            <!-- wp:group {"style":{"border":{"width":"1px"}},"borderColor":"custom-2-f-2-f-2-f","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-border-color has-custom-2-f-2-f-2-f-border-color" style="border-width:1px"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"customOverlayColor":"#8b7469","isUserOverlayColor":false,"contentPosition":"bottom center","layout":{"type":"constrained"}} -->
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"customOverlayColor":"#8b7469","isUserOverlayColor":false,"contentPosition":"bottom center","layout":{"type":"constrained"}} -->
                 <div class="wp-block-cover has-custom-content-position is-position-bottom-center"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#8b7469"></span>
                     <div class="wp-block-cover__inner-container"><!-- wp:group {"className":"frosted-card","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"10px","right":"10px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                         <div class="wp-block-group frosted-card" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
