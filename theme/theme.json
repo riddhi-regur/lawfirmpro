@@ -1,18 +1,6 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Default Header",
-      "area": "header"
-    },
-    {
-      "name": "header-version-2",
-      "title": "Home V2 Header (Alternative Logo)",
-      "area": "header"
-    }
-  ],
   "settings": {
     "appearanceTools": true,
     "useRootPaddingAwareAlignments": true,

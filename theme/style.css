@@ -27,6 +27,7 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
 		"Liberation Mono", "Courier New", monospace;
+  --color-slate-200: oklch(92.9% 0.013 255.508);
   --color-neutral-100: oklch(97% 0 0);
   --color-neutral-200: oklch(92.2% 0 0);
   --color-neutral-300: oklch(87% 0 0);
@@ -766,11 +767,24 @@ body {
   border-style: var(--tw-border-style);
   border-width: 1px;
 }
+.border-b {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1px;
+}
+.border-slate-200 {
+  border-color: var(--color-slate-200);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
 .px-6 {
   padding-inline: calc(var(--spacing) * 6);
 }
 .py-4 {
   padding-block: calc(var(--spacing) * 4);
+}
+.py-5 {
+  padding-block: calc(var(--spacing) * 5);
 }
 .py-6 {
   padding-block: calc(var(--spacing) * 6);
@@ -800,10 +814,6 @@ body {
 }
 .uppercase {
   text-transform: uppercase;
-}
-.outline {
-  outline-style: var(--tw-outline-style);
-  outline-width: 1px;
 }
 .prose-neutral {
   --tw-prose-body: var(--color-neutral-700);
@@ -864,18 +874,12 @@ body {
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-font-weight: initial;
       --tw-border-style: solid;
       --tw-tracking: initial;
-      --tw-outline-style: solid;
     }
   }
 }
