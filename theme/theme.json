@@ -126,7 +126,7 @@
   "styles": {
     "color": {
       "background": "#FFFFFF",
-      "text": "#0F172A"
+      "text": "#000000"
     },
 
     "typography": {
@@ -143,7 +143,7 @@
 
       "button": {
         "color": {
-          "background": "#C6A15B",
+          "background": "#000000",
           "text": "#FFFFFF"
         },
         "border": {
