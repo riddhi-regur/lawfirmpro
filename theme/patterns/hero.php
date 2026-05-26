@@ -7,9 +7,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"isRepeated":true,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","sizeSlug":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-repeated" style="min-height:717px">
-    <div class="wp-block-cover__image-background wp-image-34 size-full is-repeated" style="background-position:50% 50%;background-image:url(http://lawfirmpro.local/wp-content/uploads/2026/05/background.png)"></div><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#2e2922"></span>
+<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","sizeSlug":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-34 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/background.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#2e2922"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:template-part {"slug":"header","theme":"lawfirmpro/theme","align":"wide"} /-->
 
         <!-- wp:columns {"align":"wide"} -->
