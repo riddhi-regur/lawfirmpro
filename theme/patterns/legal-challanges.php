@@ -22,12 +22,12 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:paragraph -->
-                <p>Suspendisse turpis augue, aliquam eget ligula id, suscipit blandit magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}}},"textColor":"custom-464646"} -->
+                <p class="has-custom-464646-color has-text-color has-link-color">Suspendisse turpis augue, aliquam eget ligula id, suscipit blandit magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-2-f-2-f-2-f"}}},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"16px","lineHeight":"1","letterSpacing":"0px"}},"textColor":"custom-2-f-2-f-2-f","fontFamily":"plus-jakarta-sans"} -->
-                <p class="has-custom-2-f-2-f-2-f-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">Tempor ipsum efficitur posuere rutrum. Suspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"16px","lineHeight":"1","letterSpacing":"0px"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
+                <p class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">Tempor ipsum efficitur posuere rutrum. Suspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons -->
