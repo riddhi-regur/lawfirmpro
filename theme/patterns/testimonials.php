@@ -21,7 +21,7 @@
         <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
             <!-- wp:group {"className":"testimonial-card","style":{"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
             <div class="wp-block-group testimonial-card" style="border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-                <div class="wp-block-group"><!-- wp:post-title {"textAlign":"left","style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"600","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} /-->
+                <div class="wp-block-group"><!-- wp:post-title {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase","fontSize":"16px"}},"fontFamily":"plus-jakarta-sans"} /-->
 
                     <!-- wp:image {"id":296,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"31px"}}} -->
                     <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/google-icon.png" alt="" class="wp-image-296" /></figure>
@@ -32,10 +32,13 @@
                 <!-- wp:html -->
                 <style data-wp-block-html="css">
                     .testimonial-location {
+                        font-family: 'Plus Jakarta Sans';
                         font-size: 12px;
                         text-transform: uppercase;
-                        color: #777;
+                        color: #464646;
                         margin: 4px 0 12px;
+                        font-weight: 700;
+                        line-height: 15px;
                     }
                 </style>
 
@@ -45,17 +48,16 @@
                 <!-- wp:html -->
                 <style data-wp-block-html="css">
                     .testimonial-stars {
-                        color: #f4b400;
+                        color: #FBC618;
                         font-size: 18px;
-                        letter-spacing: 2px;
-                        margin-bottom: 16px;
+                        margin-bottom: 10px;
                     }
                 </style>
 
                 <!-- wp:lawfirmpro/testimonial-meta {"field":"rating"} /-->
                 <!-- /wp:html -->
 
-                <!-- wp:post-excerpt {"textAlign":"left","moreText":"","excerptLength":30,"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px"},"layout":{"selfStretch":"fixed","flexSize":""}},"fontFamily":"plus-jakarta-sans"} /-->
+                <!-- wp:post-excerpt {"textAlign":"left","moreText":"","excerptLength":30,"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px"},"layout":{"selfStretch":"fixed","flexSize":""},"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} /-->
             </div>
             <!-- /wp:group -->
             <!-- /wp:post-template -->
