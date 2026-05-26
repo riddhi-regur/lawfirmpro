@@ -64,6 +64,13 @@
           "name": "White",
           "color": "#FFFFFF"
         }
+      ],
+      "duotone": [
+        {
+          "name": "Black and white",
+          "slug": "midnight-glow",
+          "colors": [ "#FFFFFF", "#000000" ]
+        }
       ]
     },
 
