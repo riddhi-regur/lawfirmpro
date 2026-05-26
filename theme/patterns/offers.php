@@ -15,12 +15,8 @@
             <h2 class="wp-block-heading has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">How Can I Help You?</h2>
             <!-- /wp:heading -->
 
-            <!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center is-style-default has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">Tempor ipsum efficitur posuere rutrum uspendisse mollis neque sed orci </p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center is-style-default has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">dignissim, in convallis dui molestie.</p>
+            <!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0px","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"margin":{"right":"350px","left":"350px"}},"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
+            <p class="has-text-align-center is-style-default has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="margin-right:350px;margin-left:350px;font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px">Tempor ipsum efficitur posuere rutrum uspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
