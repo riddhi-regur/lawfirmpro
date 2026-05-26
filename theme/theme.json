@@ -58,13 +58,13 @@
       "palette": [
         {
           "slug": "primary",
-          "name": "Navy Blue",
-          "color": "#0F172A"
+          "name": "Black",
+          "color": "#000000"
         },
         {
           "slug": "secondary",
-          "name": "Gold",
-          "color": "#C6A15B"
+          "name": "White",
+          "color": "#FFFFFF"
         },
         {
           "slug": "accent",
@@ -75,11 +75,6 @@
           "slug": "background",
           "name": "White",
           "color": "#FFFFFF"
-        },
-        {
-          "slug": "light",
-          "name": "Light Gray",
-          "color": "#F8FAFC"
         }
       ]
     },
