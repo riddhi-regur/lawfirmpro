@@ -1,13 +1,9 @@
-.lawfirmpro-faq-item {
-    border: 1px solid #3B3B3B;
-    border-radius: 16px;
-    padding: 20px 60px 20px 24px;
-}
+
 
 .faq-title {
     cursor: pointer;
     position: relative;
-    padding-right: 50px;
+    padding-right: 50px; 
 }
 
 .faq-title::after {
