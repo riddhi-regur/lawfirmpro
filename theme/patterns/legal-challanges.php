@@ -9,25 +9,22 @@
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"100px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:100px;margin-bottom:0px"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}}} -->
-    <div class="wp-block-columns alignwide" style="margin-top:50px;margin-bottom:50px"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-            <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-                <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-000000"}}},"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"48px","lineHeight":"1.1","letterSpacing":"0px"}},"textColor":"custom-000000","fontFamily":"plus-jakarta-sans"} -->
-                    <h3 class="wp-block-heading has-custom-000000-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:300;letter-spacing:0px;line-height:1.1">Trusted in</h3>
-                    <!-- /wp:heading -->
-
-                    <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-000000"}}},"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","letterSpacing":"0px"}},"textColor":"custom-000000","fontFamily":"plus-jakarta-sans"} -->
-                    <h2 class="wp-block-heading has-custom-000000-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">Legal Challenges.</h2>
-                    <!-- /wp:heading -->
-                </div>
-                <!-- /wp:group -->
-
-                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                <p class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">Suspendisse turpis augue, aliquam eget ligula id, suscipit blandit magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <div class="wp-block-columns alignwide" style="margin-top:50px;margin-bottom:50px"><!-- wp:column {"verticalAlignment":"center"} -->
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+            <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"300","lineHeight":"1","letterSpacing":"0px"},"spacing":{"margin":{"bottom":"0px"}}},"fontFamily":"plus-jakarta-sans"} -->
+                <p class="has-plus-jakarta-sans-font-family" style="margin-bottom:0px;font-size:48px;font-style:normal;font-weight:300;letter-spacing:0px;line-height:1">Trusted in</p>
                 <!-- /wp:paragraph -->
 
-                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"16px","lineHeight":"1","letterSpacing":"0px"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                <p class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1">Tempor ipsum efficitur posuere rutrum. Suspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
+                <!-- wp:paragraph {"style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1","letterSpacing":"0px"},"spacing":{"margin":{"top":"0px"}}},"fontFamily":"plus-jakarta-sans"} -->
+                <p class="has-plus-jakarta-sans-font-family" style="margin-top:0px;font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1">Legal Challenges.</p>
+                <!-- /wp:paragraph -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0px"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
+                <p class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px">Suspendisse turpis augue, aliquam eget ligula id, suscipit blandit magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <!-- /wp:paragraph -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"16px","letterSpacing":"0px"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
+                <p class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px">Tempor ipsum efficitur posuere rutrum. Suspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons -->
