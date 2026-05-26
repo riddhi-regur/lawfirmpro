@@ -27,7 +27,6 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
 		"Liberation Mono", "Courier New", monospace;
-  --color-slate-200: oklch(92.9% 0.013 255.508);
   --color-neutral-100: oklch(97% 0 0);
   --color-neutral-200: oklch(92.2% 0 0);
   --color-neutral-300: oklch(87% 0 0);
@@ -39,16 +38,9 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
   --color-neutral-900: oklch(20.5% 0 0);
   --color-white: #fff;
   --spacing: 0.25rem;
-  --container-7xl: 80rem;
-  --text-sm: 0.875rem;
-  --text-sm--line-height: calc(1.25 / 0.875);
   --text-3xl: 1.875rem;
   --text-3xl--line-height: calc(2.25 / 1.875);
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
   --font-weight-extrabold: 800;
-  --tracking-tight: -0.025em;
-  --radius-xl: 0.75rem;
   --default-font-family: var(--font-sans);
   --default-mono-font-family: var(--font-mono);
   --color-background: var(--wp--preset--color--background);
@@ -262,9 +254,6 @@ body {
   white-space: nowrap;
   border-width: 0;
 }
-.absolute {
-  position: absolute;
-}
 .fixed {
   position: fixed;
 }
@@ -273,21 +262,6 @@ body {
 }
 .start {
   inset-inline-start: var(--spacing);
-}
-.top-0 {
-  top: calc(var(--spacing) * 0);
-}
-.right-0 {
-  right: calc(var(--spacing) * 0);
-}
-.left-0 {
-  left: calc(var(--spacing) * 0);
-}
-.z-50 {
-  z-index: 50;
-}
-.mx-auto {
-  margin-inline: auto;
 }
 .prose {
   --tw-prose-body: var(--color-foreground);
@@ -744,73 +718,16 @@ body {
 .grid {
   display: grid;
 }
-.hidden {
-  display: none;
-}
 .size-full {
   width: 100%;
   height: 100%;
 }
-.max-w-7xl {
-  max-width: var(--container-7xl);
-}
 .max-w-none {
   max-width: none;
-}
-.gap-8 {
-  gap: calc(var(--spacing) * 8);
-}
-.rounded-xl {
-  border-radius: var(--radius-xl);
 }
 .border {
   border-style: var(--tw-border-style);
   border-width: 1px;
-}
-.border-b {
-  border-bottom-style: var(--tw-border-style);
-  border-bottom-width: 1px;
-}
-.border-slate-200 {
-  border-color: var(--color-slate-200);
-}
-.bg-white {
-  background-color: var(--color-white);
-}
-.px-6 {
-  padding-inline: calc(var(--spacing) * 6);
-}
-.py-4 {
-  padding-block: calc(var(--spacing) * 4);
-}
-.py-5 {
-  padding-block: calc(var(--spacing) * 5);
-}
-.py-6 {
-  padding-block: calc(var(--spacing) * 6);
-}
-.text-3xl {
-  font-size: var(--text-3xl);
-  line-height: var(--tw-leading, var(--text-3xl--line-height));
-}
-.text-sm {
-  font-size: var(--text-sm);
-  line-height: var(--tw-leading, var(--text-sm--line-height));
-}
-.font-medium {
-  --tw-font-weight: var(--font-weight-medium);
-  font-weight: var(--font-weight-medium);
-}
-.font-semibold {
-  --tw-font-weight: var(--font-weight-semibold);
-  font-weight: var(--font-weight-semibold);
-}
-.tracking-tight {
-  --tw-tracking: var(--tracking-tight);
-  letter-spacing: var(--tracking-tight);
-}
-.text-white {
-  color: var(--color-white);
 }
 .uppercase {
   text-transform: uppercase;
@@ -853,11 +770,6 @@ body {
   --tw-prose-invert-th-borders: var(--color-neutral-600);
   --tw-prose-invert-td-borders: var(--color-neutral-700);
 }
-@media (width >= 64rem) {
-  .lg\:flex {
-    display: flex;
-  }
-}
 .prose-a\:text-primary :is(a):not(:where([class~='not-prose'],[class~='not-prose'] *)) {
   color: var(--color-primary);
 }
@@ -870,16 +782,11 @@ body {
   inherits: false;
   initial-value: solid;
 }
-@property --tw-tracking {
-  syntax: "*";
-  inherits: false;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-font-weight: initial;
       --tw-border-style: solid;
-      --tw-tracking: initial;
     }
   }
 }
