@@ -27,7 +27,7 @@
                         <!-- /wp:image -->
 
                         <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"155px"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom","justifyContent":"left","flexWrap":"wrap"}} -->
-                        <div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"12px","fontStyle":"normal","fontWeight":"500","letterSpacing":"0px","lineHeight":"1"},"layout":{"selfStretch":"fit"}},"fontFamily":"plus-jakarta-sans"} -->
+                        <div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"12px","fontStyle":"normal","fontWeight":"500","letterSpacing":"0px","lineHeight":"1"},"layout":{"selfStretch":"fixed"}},"fontFamily":"plus-jakarta-sans"} -->
                             <p class="is-style-default has-plus-jakarta-sans-font-family" style="font-size:12px;font-style:normal;font-weight:500;letter-spacing:0px;line-height:1">Call us today</p>
                             <!-- /wp:paragraph -->
 
