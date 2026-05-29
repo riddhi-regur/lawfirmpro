@@ -29,12 +29,12 @@
             <!-- wp:query {"queryId":117,"query":{"perPage":3,"pages":0,"offset":0,"postType":"practice-area","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
             <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
                 <!-- wp:group {"style":{"border":{"width":"1px"}},"backgroundColor":"custom-191919","borderColor":"custom-2-f-2-f-2-f","layout":{"type":"constrained"}} -->
-                <div class="wp-block-group has-border-color has-custom-2-f-2-f-2-f-border-color has-custom-191919-background-color has-background" style="border-width:1px"><!-- wp:post-featured-image {"height":"240px"} /-->
+                <div class="wp-block-group has-border-color has-custom-2-f-2-f-2-f-border-color has-custom-191919-background-color has-background" style="border-width:1px"><!-- wp:post-featured-image {"isLink":true,"height":"240px"} /-->
 
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px","left":"25px","bottom":"35px"}}},"layout":{"type":"constrained"}} -->
-                    <div class="wp-block-group" style="padding-right:25px;padding-bottom:35px;padding-left:25px"><!-- wp:post-title {"style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"600"}},"fontFamily":"plus-jakarta-sans"} /-->
+                    <div class="wp-block-group" style="padding-right:25px;padding-bottom:35px;padding-left:25px"><!-- wp:post-title {"isLink":true,"style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"600"}},"fontFamily":"plus-jakarta-sans"} /-->
 
-                        <!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|custom-a-6-a-6-a-6"}}}},"textColor":"custom-a-6-a-6-a-6","fontFamily":"plus-jakarta-sans"} /-->
+                        <!-- wp:post-excerpt {"moreText":"","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|custom-a-6-a-6-a-6"}}}},"textColor":"custom-a-6-a-6-a-6","fontFamily":"plus-jakarta-sans"} /-->
 
                         <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
                         <p class="has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:800;text-transform:uppercase">View Service ➔</p>
