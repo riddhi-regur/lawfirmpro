@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"100px"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group" style="padding-top:100px"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"center"}} -->
+<div class="wp-block-group" style="padding-top:100px"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
     <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"center"} -->
         <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"right":"100px"}}},"layout":{"type":"default"}} -->
             <div class="wp-block-column is-vertically-aligned-center" style="padding-right:100px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"48px","lineHeight":"1.1","letterSpacing":"0px"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
@@ -50,7 +50,7 @@
                         <h2 class="wp-block-heading has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">Get In Touch</h2>
                         <!-- /wp:heading -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
                         <div class="wp-block-group"><!-- wp:shortcode -->
                             [lawfirmpro_cf7]
                             <!-- /wp:shortcode -->
