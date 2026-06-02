@@ -117,7 +117,7 @@ if (! function_exists('lawfirmpro_setup')) :
 		add_theme_support('responsive-embeds');
 
 		// Remove support for block templates.
-		remove_theme_support('block-templates');
+		//remove_theme_support('block-templates');
 	}
 endif;
 add_action('after_setup_theme', 'lawfirmpro_setup');
@@ -238,6 +238,11 @@ function tw_enqueue_block_assets()
 	wp_enqueue_style('tw-styles', get_template_directory_uri() . '/dist/output.css', array(), '1.0.0');
 }
 add_action('enqueue_block_assets', 'tw_enqueue_block_assets');
+function lawfirmpro_cf7_form()
+{
+	return do_shortcode('[contact-form-7 id="6575567" title="Contact Form"]');
+}
+add_shortcode('lawfirmpro_cf7', 'lawfirmpro_cf7_form');
 require_once get_template_directory() . '/inc/setup.php';
 require_once get_template_directory() . '/inc/enqueue.php';
 require_once get_template_directory() . '/inc/security.php';
