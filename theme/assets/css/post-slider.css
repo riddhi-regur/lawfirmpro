@@ -1,13 +1,28 @@
-/* Outer Window Container */
+/* ==========================================================================
+   1. Main Outer Window Frame
+   ========================================================================== */
 .custom-post-slider {
     position: relative !important;
     overflow: hidden !important;
     width: 100% !important;
     padding: 30px 0 !important;
     box-sizing: border-box !important;
+    
+    /* Changes mouse cursor to a dragging hand */
+    cursor: grab;
+    
+    /* Prevents selecting text or images mid-drag */
+    user-select: none !important;
+    -webkit-user-select: none !important;
 }
 
-/* Horizontal Content Slider Rail */
+.custom-post-slider:active {
+    cursor: grabbing;
+}
+
+/* ==========================================================================
+   2. Horizontal Content Slider Rail
+   ========================================================================== */
 .custom-post-slider .wp-block-post-template {
     display: flex !important;
     flex-wrap: nowrap !important;
@@ -19,70 +34,30 @@
     will-change: transform !important;
 }
 
-/* Uniform Post Cards (Desktop Default: 3 Columns) */
+/* ==========================================================================
+   3. Uniform Post Cards (Desktop Default: 3 Columns)
+   ========================================================================== */
 .custom-post-slider .wp-block-post-template > * {
     flex: 0 0 33.3333% !important;
     max-width: 33.3333% !important;
     box-sizing: border-box !important;
     padding: 0 15px !important;
+    
+    /* Stops embedded link tags from breaking the drag action */
+    pointer-events: auto; 
 }
 
-/* Images scaling */
+/* Image scaling standards */
 .custom-post-slider img {
     width: 100% !important;
     height: auto !important;
     display: block !important;
+    pointer-events: none !important; /* Prevents dragging the image file icon itself */
 }
 
-/* Hide the default block spacing layout for the button block container */
-.custom-post-slider .wp-block-buttons {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-/* Absolute positioning targeting native Gutenberg buttons */
-.custom-post-slider .wp-block-button {
-    position: absolute !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 999 !important;
-}
-
-/* Style the native inner links as rounded slider control handles */
-.custom-post-slider .slider-prev a,
-.custom-post-slider .slider-next a {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 44px !important;
-    height: 44px !important;
-    font-size: 28px !important;
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
-    border-radius: 50% !important;
-    padding: 0 !important;
-    text-decoration: none !important;
-    cursor: pointer !important;
-}
-
-/* Position left button */
-.custom-post-slider .slider-prev {
-    left: 10px !important;
-}
-
-/* Position right button */
-.custom-post-slider .slider-next {
-    right: 10px !important;
-}
-
-/* Disabled button state styling rule */
-.custom-post-slider .wp-block-button.disabled {
-    opacity: 0.3 !important;
-    pointer-events: none !important;
-}
-
-/* Media Breakpoints */
+/* ==========================================================================
+   4. Dynamic Media Breakpoints
+   ========================================================================== */
 @media (max-width: 991px) {
     .custom-post-slider .wp-block-post-template > * {
         flex: 0 0 50% !important;
@@ -95,6 +70,4 @@
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
-    .custom-post-slider .slider-prev { left: 5px !important; }
-    .custom-post-slider .slider-next { right: 5px !important; }
 }

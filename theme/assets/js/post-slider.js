@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	function initNativeGutenbergSliders() {
+	function initDragPostSliders() {
 		document
 			.querySelectorAll('.custom-post-slider')
 			.forEach(function (slider) {
@@ -9,10 +9,17 @@ document.addEventListener('DOMContentLoaded', function () {
 				const slides = track.children;
 				if (slides.length === 0) return;
 
+				// Operational variables
+				let isDragging = false;
+				let startX = 0;
+				let currentTranslate = 0;
+				let prevTranslate = 0;
+				let animationId = 0;
 				let currentIndex = 0;
+				let dragThreshold = 50; // Pixels needed to transition columns
+				let isLinkPrevented = false;
 
-				track.style.transition =
-					'transform 0.4s cubic-bezier(0.25, 1, 0.5, 1)';
+				// Style configuration defaults
 				track.style.display = 'flex';
 
 				function getVisibleCardsCount() {
@@ -21,60 +28,126 @@ document.addEventListener('DOMContentLoaded', function () {
 					return 3;
 				}
 
-				function moveSlider() {
+				function getSlideWidth() {
+					return track.offsetWidth / getVisibleCardsCount();
+				}
+
+				function getMaxTranslate() {
+					const visibleCards = getVisibleCardsCount();
+					const maxIndex = Math.max(0, slides.length - visibleCards);
+					return -(maxIndex * getSlideWidth());
+				}
+
+				// Universal input router
+				function getPositionX(event) {
+					return event.type.includes('mouse')
+						? event.pageX
+						: event.touches[0].clientX;
+				}
+
+				// Drag actions initialization
+				function dragStart(event) {
+					isDragging = true;
+					startX = getPositionX(event);
+					track.style.transition = 'none'; // Disables transit delay for snappy tracking
+					isLinkPrevented = false;
+
+					// Track standard loop rendering
+					animationId = requestAnimationFrame(animationLoop);
+				}
+
+				function dragMove(event) {
+					if (!isDragging) return;
+					const currentX = getPositionX(event);
+					const currentDragDistance = currentX - startX;
+
+					if (Math.abs(currentDragDistance) > 5) {
+						isLinkPrevented = true; // User is dragging, do not trigger profile links
+					}
+
+					currentTranslate = prevTranslate + currentDragDistance;
+
+					// Adding a physical stretch friction resistance effect at edge boundaries
+					const maxTranslate = getMaxTranslate();
+					if (currentTranslate > 0) {
+						currentTranslate = currentTranslate * 0.3;
+					} else if (currentTranslate < maxTranslate) {
+						currentTranslate =
+							maxTranslate +
+							(currentTranslate - maxTranslate) * 0.3;
+					}
+				}
+
+				function dragEnd() {
+					if (!isDragging) return;
+					isDragging = false;
+					cancelAnimationFrame(animationId);
+
+					const movedBy = currentTranslate - prevTranslate;
+					const slideWidth = getSlideWidth();
 					const visibleCards = getVisibleCardsCount();
 					const maxIndex = Math.max(0, slides.length - visibleCards);
 
-					if (currentIndex > maxIndex) currentIndex = maxIndex;
-					if (currentIndex < 0) currentIndex = 0;
-
-					const movePercentage = currentIndex * (100 / visibleCards);
-					track.style.transform = `translateX(-${movePercentage}%)`;
-
-					// Handle disabled tracking natively via CSS classes on block wrappers
-					const prevBtnWrapper = slider.querySelector('.slider-prev');
-					const nextBtnWrapper = slider.querySelector('.slider-next');
-
-					if (prevBtnWrapper) {
-						if (currentIndex === 0)
-							prevBtnWrapper.classList.add('disabled');
-						else prevBtnWrapper.classList.remove('disabled');
+					// Analyze movement logic boundaries
+					if (movedBy < -dragThreshold && currentIndex < maxIndex) {
+						currentIndex++;
+					} else if (movedBy > dragThreshold && currentIndex > 0) {
+						currentIndex--;
 					}
-					if (nextBtnWrapper) {
-						if (currentIndex === maxIndex)
-							nextBtnWrapper.classList.add('disabled');
-						else nextBtnWrapper.classList.remove('disabled');
+
+					// Snap element precisely onto grid coordinates
+					setPositionByIndex();
+				}
+
+				function animationLoop() {
+					if (isDragging) {
+						track.style.transform = `translateX(${currentTranslate}px)`;
+						requestAnimationFrame(animationLoop);
 					}
 				}
 
-				// Select inner <a> tag click nodes inside Gutenberg block frameworks
-				const nextBtnLink = slider.querySelector('.slider-next a');
-				if (nextBtnLink) {
-					nextBtnLink.addEventListener('click', function (e) {
-						e.preventDefault();
-						const visibleCards = getVisibleCardsCount();
-						if (currentIndex < slides.length - visibleCards) {
-							currentIndex++;
-							moveSlider();
-						}
-					});
+				function setPositionByIndex() {
+					const slideWidth = getSlideWidth();
+					currentTranslate = -(currentIndex * slideWidth);
+					prevTranslate = currentTranslate;
+
+					track.style.transition =
+						'transform 0.4s cubic-bezier(0.25, 1, 0.5, 1)';
+					track.style.transform = `translateX(${currentTranslate}px)`;
 				}
 
-				const prevBtnLink = slider.querySelector('.slider-prev a');
-				if (prevBtnLink) {
-					prevBtnLink.addEventListener('click', function (e) {
-						e.preventDefault();
-						if (currentIndex > 0) {
-							currentIndex--;
-							moveSlider();
+				// Prevent card links from triggering on a dragging action release
+				slider.addEventListener(
+					'click',
+					function (e) {
+						if (isLinkPrevented) {
+							e.preventDefault();
+							e.stopPropagation();
 						}
-					});
-				}
+					},
+					true
+				);
 
-				moveSlider();
-				window.addEventListener('resize', moveSlider);
+				// Bind pointer inputs for touch devices and desktop mice
+				slider.addEventListener('mousedown', dragStart);
+				slider.addEventListener('mousemove', dragMove);
+				window.addEventListener('mouseup', dragEnd);
+
+				slider.addEventListener('touchstart', dragStart, {
+					passive: true,
+				});
+				slider.addEventListener('touchmove', dragMove, {
+					passive: true,
+				});
+				window.addEventListener('touchend', dragEnd);
+
+				// Keeps responsive widths exact on screen size adjustment
+				window.addEventListener('resize', setPositionByIndex);
+
+				// Initialization trigger
+				setPositionByIndex();
 			});
 	}
 
-	initNativeGutenbergSliders();
+	initDragPostSliders();
 });
