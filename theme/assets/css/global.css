@@ -19,3 +19,55 @@ img {
   position: absolute;
   left: -9999px;
 }
+
+.frosted-card {
+  background: rgba(0, 0, 0, 0.4); 
+  backdrop-filter: blur(10px);    
+  -webkit-backdrop-filter: blur(10px); 
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 32px 28px;
+    border: 1px solid #ececec;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.03);
+}
+/* Remove all borders except the bottom underline */
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpforms-container input[type="text"],
+.wpforms-container input[type="email"],
+.wpforms-container input[type="tel"] {
+    border: none !important;
+    border-bottom: 1.5px solid #000000 !important;
+    border-radius: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Style the placeholder text color */
+.wpforms-container ::placeholder {
+    color: #000000 !important;
+    opacity: 1;
+}
+
+/* Make the submit button full-width, black, and rectangular */
+.wpforms-container .wpforms-submit-container {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 25px !important;
+}
+
+.wpforms-container button.wpforms-submit {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    padding: 15px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    border: none !important;
+}

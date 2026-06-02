@@ -240,7 +240,15 @@ function tw_enqueue_block_assets()
 add_action('enqueue_block_assets', 'tw_enqueue_block_assets');
 function lawfirmpro_cf7_form()
 {
-	return do_shortcode('[contact-form-7 id="6575567" title="Contact Form"]');
+	$output = '';
+
+	if (class_exists('WPCF7')) {
+		$output .= do_shortcode(
+			'[contact-form-7 id="6575567" title="Contact Form"]'
+		);
+	}
+
+	return $output;
 }
 add_shortcode('lawfirmpro_cf7', 'lawfirmpro_cf7_form');
 require_once get_template_directory() . '/inc/setup.php';
