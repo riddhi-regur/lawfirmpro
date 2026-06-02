@@ -32,10 +32,53 @@ img {
     border: 1px solid #ececec;
     box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.03);
 }
-/* Remove all borders except the bottom underline */
+.cf7-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 12px;
+}
+
+.cf7-col {
+    flex: 1;
+    min-width: 0;
+}
+
+.cf7-col .wpcf7-form-control {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    
+}
+
+.wpcf7-form-control-wrap {
+    display: block;
+    width: 100%;
+}
+
+.wpcf7 p {
+    margin: 0;padding: 0 30px !important;
+}
+
+@media (max-width: 768px) {
+    .cf7-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
-.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="tel"]{
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1.5px solid #000 !important;
+    background: transparent !important;
+    padding: 10px 0 !important;
+}
+
+/* Remove all borders except the bottom underline */
 .wpforms-container input[type="text"],
 .wpforms-container input[type="email"],
 .wpforms-container input[type="tel"] {
@@ -48,6 +91,7 @@ img {
     box-shadow: none !important;
 }
 
+.wpcf7-form label ,
 .wpforms-container .wpforms-field-label {
     font-weight: 600 !important;
 font-style: normal !important;
@@ -99,4 +143,23 @@ background: #000000 !important;
 color: #FFFFFF !important;
 border: none !important;
 
+}
+
+.wpcf7-submit{
+  font-family: 'plus-jakarta-sans', sans-serif !important;
+font-style: normal !important;
+font-weight: 800 !important;
+font-size: 16px !important;
+line-height: 20px !important;
+text-transform: uppercase !important;
+color: #FFFFFF !important;
+border: none !important;
+display: flex !important;
+flex-direction: row !important;
+justify-content: center   !important;
+align-items: center !important;
+padding: 16px 64px !important;
+gap: 8px !important;
+width: 100% !important;
+background: #000000 !important;
 }
