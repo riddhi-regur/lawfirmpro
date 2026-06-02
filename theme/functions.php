@@ -251,6 +251,15 @@ function lawfirmpro_cf7_form()
 	return $output;
 }
 add_shortcode('lawfirmpro_cf7', 'lawfirmpro_cf7_form');
+add_action('init', function () {
+
+	register_block_pattern_category(
+		'lawfirmpro',
+		[
+			'label' => __('LawFirmPro', 'lawfirmpro'),
+		]
+	);
+});
 require_once get_template_directory() . '/inc/setup.php';
 require_once get_template_directory() . '/inc/enqueue.php';
 require_once get_template_directory() . '/inc/security.php';

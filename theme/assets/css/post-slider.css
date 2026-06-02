@@ -1,0 +1,100 @@
+/* Outer Window Container */
+.custom-post-slider {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    padding: 30px 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Horizontal Content Slider Rail */
+.custom-post-slider .wp-block-post-template {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    width: 100% !important;
+    overflow: visible !important;
+    will-change: transform !important;
+}
+
+/* Uniform Post Cards (Desktop Default: 3 Columns) */
+.custom-post-slider .wp-block-post-template > * {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+    box-sizing: border-box !important;
+    padding: 0 15px !important;
+}
+
+/* Images scaling */
+.custom-post-slider img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+/* Hide the default block spacing layout for the button block container */
+.custom-post-slider .wp-block-buttons {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Absolute positioning targeting native Gutenberg buttons */
+.custom-post-slider .wp-block-button {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 999 !important;
+}
+
+/* Style the native inner links as rounded slider control handles */
+.custom-post-slider .slider-prev a,
+.custom-post-slider .slider-next a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 28px !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+/* Position left button */
+.custom-post-slider .slider-prev {
+    left: 10px !important;
+}
+
+/* Position right button */
+.custom-post-slider .slider-next {
+    right: 10px !important;
+}
+
+/* Disabled button state styling rule */
+.custom-post-slider .wp-block-button.disabled {
+    opacity: 0.3 !important;
+    pointer-events: none !important;
+}
+
+/* Media Breakpoints */
+@media (max-width: 991px) {
+    .custom-post-slider .wp-block-post-template > * {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-post-slider .wp-block-post-template > * {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .custom-post-slider .slider-prev { left: 5px !important; }
+    .custom-post-slider .slider-next { right: 5px !important; }
+}

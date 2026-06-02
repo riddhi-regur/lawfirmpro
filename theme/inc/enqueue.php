@@ -20,15 +20,8 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
-        'lawfirmpro-practice-areas',
-        get_template_directory_uri() . '/assets/css/practice-areas.css',
-        array(),
-        $version
-    );
-
-    wp_enqueue_style(
-        'lawfirmpro-about-firm',
-        get_theme_file_uri('/assets/css/about-firm.css'),
+        'lawfirmpro-post-slider',
+        get_theme_file_uri('/assets/css/post-slider.css'),
         array(),
         $version
     );
@@ -36,6 +29,14 @@ function lawfirmpro_enqueue_assets()
     wp_enqueue_script(
         'lawfirmpro-faq',
         get_theme_file_uri('/assets/js/faq.js'),
+        [],
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'lawfirmpro-post-slider',
+        get_theme_file_uri('/assets/js/post-slider.js'),
         [],
         null,
         true
