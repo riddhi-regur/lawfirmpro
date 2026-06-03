@@ -149,5 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			});
 	}
 
-	initDragPostSliders();
+	if (window.innerWidth <= 767) {
+		initDragPostSliders();
+	}
 });
