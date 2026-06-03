@@ -3,7 +3,8 @@
 .faq-title {
     cursor: pointer;
     position: relative;
-    padding-right: 50px; 
+    padding-right: 50px;
+    font-size: 20px; 
 }
 
 .faq-title::after {
@@ -25,6 +26,7 @@
 .faq-content {
     display: none;
     color: #393939;
+    font-size: 16px; 
 }
 
 .lawfirmpro-faq-item.active .faq-content {

@@ -79,6 +79,17 @@
           "name": "Card background",
           "color": "#191919"
         }
+        ,
+         {
+          "slug": "accent-5",
+          "name": "FAQ background",
+          "color": "#F6F6F6"
+        }  ,
+         {
+          "slug": "accent-6",
+          "name": "Contact border",
+          "color": "#8F8F8F"
+        }
       ],
       "duotone": [
         {

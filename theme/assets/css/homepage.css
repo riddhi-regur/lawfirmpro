@@ -75,5 +75,20 @@ color: #FBC618;
     .testimonial-post-text{
         font-size: 16px !important;
     }
-  
+   .faq-heading{
+        font-size: 40px !important;
+    }
+    .contat-heading{
+        font-size: 40px !important;
+    }
+    .contact-para{
+        font-size: 16px !important;
+        padding-right: 0px !important;
+    }
+    .article-heading{
+        font-size: 40px !important;
+    }
+    .article-title{
+        font-size: 16px !important;
+    }
 }
