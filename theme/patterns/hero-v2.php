@@ -7,17 +7,13 @@
  * Inserter: true
  */
 ?>
-<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/hero-v2.png","id":479,"dimRatio":0,"customOverlayColor":"#312c2b","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","sizeSlug":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-479 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/hero-v2.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#312c2b"></span>
+<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/hero-v2.png","id":479,"dimRatio":0,"customOverlayColor":"#312c2b","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","contentPosition":"top center","sizeSlug":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-top-center" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-479 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/hero-v2.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#312c2b"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:template-part {"slug":"header-version-2","theme":"lawfirmpro/theme","align":"wide"} /-->
 
-        <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"172px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-        <div class="wp-block-group alignwide" style="padding-top:172px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0px","textAlign":"center"}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:72px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1.1">Reliable Legal Help </p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0px","textAlign":"center"}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:72px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1.1">from Expert Lawyers</p>
+        <!-- wp:group {"align":"wide","className":"hero-content-stack ","style":{"spacing":{"padding":{"top":"172px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+        <div class="wp-block-group alignwide hero-content-stack" style="padding-top:172px"><!-- wp:paragraph {"className":"hero1-content-heading","style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0px","textAlign":"center"},"spacing":{"padding":{"right":"200px","left":"200px"}}},"fontFamily":"plus-jakarta-sans"} -->
+            <p class="has-text-align-center hero1-content-heading has-plus-jakarta-sans-font-family" style="padding-right:200px;padding-left:200px;font-size:72px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1.1">Reliable Legal Help from Expert Lawyers</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:buttons {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}}} -->
@@ -25,8 +21,8 @@
                 <div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase">Explore Services ➔</a></div>
                 <!-- /wp:button -->
 
-                <!-- wp:button {"textColor":"background","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
-                <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-background-color has-text-color has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase">request a quote ➔</a></div>
+                <!-- wp:button {"textColor":"background","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"},"spacing":{"padding":{"left":"60px","right":"60px","top":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+                <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-background-color has-text-color has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" style="padding-top:var(--wp--preset--spacing--sm);padding-right:60px;padding-bottom:var(--wp--preset--spacing--sm);padding-left:60px;font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase">request a quote ➔</a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->
