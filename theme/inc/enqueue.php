@@ -14,6 +14,13 @@ function lawfirmpro_enqueue_assets()
 
     wp_enqueue_style(
         'lawfirmpro-faq',
+        get_template_directory_uri() . '/assets/css/header.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
+        'lawfirmpro-faq',
         get_template_directory_uri() . '/assets/css/faq.css',
         array(),
         $version

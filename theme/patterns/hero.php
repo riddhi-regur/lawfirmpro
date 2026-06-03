@@ -7,14 +7,14 @@
  * Inserter: true
  */
 ?>
-<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","sizeSlug":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-34 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/background.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#2e2922"></span>
-    <div class="wp-block-cover__inner-container"><!-- wp:template-part {"slug":"header","theme":"lawfirmpro/theme","align":"wide"} /-->
+<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","contentPosition":"top center","sizeSlug":"full","layout":{"type":"constrained","contentSize":"100%","wideSize":"1400%"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-top-center" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-34 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/background.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#2e2922"></span>
+    <div class="wp-block-cover__inner-container"><!-- wp:template-part {"slug":"header","theme":"lawfirmpro/theme","area":"uncategorized"} /-->
 
-        <!-- wp:columns {"align":"wide"} -->
-        <div class="wp-block-columns alignwide"><!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"172px"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-                <div class="wp-block-group" style="padding-top:172px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
+        <!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+        <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
+            <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"150px"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
+                <div class="wp-block-group" style="padding-top:150px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
                     <p class="has-plus-jakarta-sans-font-family" style="font-size:72px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1.1">Reliable Legal Help from Expert Lawyers</p>
                     <!-- /wp:paragraph -->
 
@@ -33,8 +33,8 @@
             </div>
             <!-- /wp:column -->
 
-            <!-- wp:column -->
-            <div class="wp-block-column"></div>
+            <!-- wp:column {"verticalAlignment":"center"} -->
+            <div class="wp-block-column is-vertically-aligned-center"></div>
             <!-- /wp:column -->
         </div>
         <!-- /wp:columns -->
