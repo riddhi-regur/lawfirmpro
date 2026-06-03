@@ -7,7 +7,7 @@
  * Inserter: true
  */
 ?>
-<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","contentPosition":"top center","sizeSlug":"full","layout":{"type":"constrained","contentSize":"100%","wideSize":"1400%"}} -->
+<!-- wp:cover {"url":"http://lawfirmpro.local/wp-content/uploads/2026/05/background.png","id":34,"dimRatio":0,"customOverlayColor":"#2e2922","isUserOverlayColor":false,"minHeight":717,"minHeightUnit":"px","contentPosition":"top center","sizeSlug":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover has-custom-content-position is-position-top-center" style="min-height:717px"><img class="wp-block-cover__image-background wp-image-34 size-full" alt="" src="http://lawfirmpro.local/wp-content/uploads/2026/05/background.png" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#2e2922"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:template-part {"slug":"header","theme":"lawfirmpro/theme","area":"uncategorized"} /-->
 

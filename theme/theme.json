@@ -6,7 +6,7 @@
     "useRootPaddingAwareAlignments": true,
 
     "layout": {
-      "contentSize": "1200px",
+      "contentSize": "1280px",
       "wideSize": "1400px"
     },
 
@@ -122,6 +122,12 @@
     "color": {
       "background": "#FFFFFF",
       "text": "#000000"
+    },
+     "spacing": {
+      "padding": {
+        "left": "clamp(16px, 4vw, 35px)",
+        "right": "clamp(16px, 4vw, 35px)"
+      }
     },
 
     "typography": {
