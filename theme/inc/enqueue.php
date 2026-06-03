@@ -13,8 +13,15 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
-        'lawfirmpro-faq',
+        'lawfirmpro-header',
         get_template_directory_uri() . '/assets/css/header.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
+        'lawfirmpro-homepage-hero',
+        get_template_directory_uri() . '/assets/css/homepage-hero.css',
         array(),
         $version
     );

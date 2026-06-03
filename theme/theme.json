@@ -152,10 +152,10 @@
         },
         "spacing": {
           "padding": {
-            "top": "14px",
-            "bottom": "14px",
-            "left": "24px",
-            "right": "24px"
+            "top": "16px",
+            "bottom": "16px",
+            "left": "64px",
+            "right": "64px"
           }
         }
       }

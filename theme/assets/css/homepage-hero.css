@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+
+     .hero-cover .wp-block-cover__image-background {
+        display: none;
+    }
+
+    .hero-cover {
+        background-image: url('/wp-content/uploads/2026/06/hero-mobile.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .wp-block-group.hero-content-stack {
+        padding-top: 50px !important;
+    }
+
+    .hero-content-heading{
+        font-size: 48px !important;
+        padding-right: 0px !important;
+    }
+}
