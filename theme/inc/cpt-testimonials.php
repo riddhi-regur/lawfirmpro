@@ -94,10 +94,20 @@ function lawfirmpro_save_testimonial_fields_data($post_id)
 add_action('save_post', 'lawfirmpro_save_testimonial_fields_data');
 
 /**
- * Render testimonial meta block
+ * Testimonial Meta Shortcode
+ * Usage:
+ * [testimonial_meta field="location"]
+ * [testimonial_meta field="rating"]
  */
-function lawfirmpro_render_testimonial_meta($attributes)
+function lawfirmpro_testimonial_meta_shortcode($atts)
 {
+    $atts = shortcode_atts(
+        array(
+            'field' => '',
+        ),
+        $atts,
+        'testimonial_meta'
+    );
 
     $post_id = get_the_ID();
 
@@ -105,9 +115,7 @@ function lawfirmpro_render_testimonial_meta($attributes)
         return '';
     }
 
-    $field = $attributes['field'] ?? '';
-
-    if ($field === 'location') {
+    if ($atts['field'] === 'location') {
 
         $location = get_post_meta(
             $post_id,
@@ -116,13 +124,13 @@ function lawfirmpro_render_testimonial_meta($attributes)
         );
 
         return !empty($location)
-            ? '<p class="testimonial-location">'
-            . esc_html($location) .
+            ? '<p class="testimonial-location">' .
+            esc_html($location) .
             '</p>'
             : '';
     }
 
-    if ($field === 'rating') {
+    if ($atts['field'] === 'rating') {
 
         $rating = get_post_meta(
             $post_id,
@@ -134,22 +142,15 @@ function lawfirmpro_render_testimonial_meta($attributes)
             ? intval($rating)
             : 5;
 
-        return '<div class="testimonial-stars">'
-            . str_repeat('★', $rating)
-            . '</div>';
+        return '<div class="testimonial-stars">' .
+            str_repeat('★', $rating) .
+            '</div>';
     }
 
     return '';
 }
 
-register_block_type(
-    'lawfirmpro/testimonial-meta',
-    array(
-        'render_callback' => 'lawfirmpro_render_testimonial_meta',
-        'attributes'      => array(
-            'field' => array(
-                'type' => 'string',
-            ),
-        ),
-    )
+add_shortcode(
+    'testimonial_meta',
+    'lawfirmpro_testimonial_meta_shortcode'
 );
