@@ -29,4 +29,11 @@
     .offers-paragraph{
         margin: 0px !important;
     }
+
+    .wp-block-group.is-layout-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .calculations-heading{
+        font-size: 40px !important;
+    }
 }

@@ -63,6 +63,11 @@
           "slug": "background",
           "name": "White",
           "color": "#FFFFFF"
+        },
+         {
+          "slug": "accent-2",
+          "name": "Line Separator",
+          "color": "#CECECE"
         }
       ],
       "duotone": [
