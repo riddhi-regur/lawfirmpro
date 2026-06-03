@@ -36,4 +36,13 @@
     .calculations-heading{
         font-size: 40px !important;
     }
+    .practice-area-heading{
+        font-size: 40px !important;
+    }
+     .practice-area-paragraph{
+        margin: 0px !important;
+    }
+    .practice-area-post-tile{
+        font-size: 24px !important;
+    }
 }

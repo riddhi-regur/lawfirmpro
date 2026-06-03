@@ -68,6 +68,16 @@
           "slug": "accent-2",
           "name": "Line Separator",
           "color": "#CECECE"
+        },
+         {
+          "slug": "accent-3",
+          "name": "Card boarder",
+          "color": "#2F2F2F"
+        },
+         {
+          "slug": "accent-4",
+          "name": "Card background",
+          "color": "#191919"
         }
       ],
       "duotone": [
