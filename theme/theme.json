@@ -89,6 +89,11 @@
           "slug": "accent-6",
           "name": "Contact border",
           "color": "#8F8F8F"
+        } ,
+         {
+          "slug": "accent-7",
+          "name": "tag",
+          "color": "#BCBCBC"
         }
       ],
       "duotone": [
