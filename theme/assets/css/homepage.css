@@ -1,3 +1,21 @@
+  .testimonial-location{
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+
+color: #464646;
+
+
+    }
+    .testimonial-stars{
+
+color: #FBC618;
+
+    }
 @media (max-width: 768px) {
 
      .hero-cover .wp-block-cover__image-background {
@@ -54,4 +72,8 @@
     .testimonial-heading{
         font-size: 40px !important;
     }
+    .testimonial-post-text{
+        font-size: 16px !important;
+    }
+  
 }

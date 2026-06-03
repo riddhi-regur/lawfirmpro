@@ -127,7 +127,7 @@ function lawfirmpro_testimonial_meta_shortcode($atts)
             ? '<p class="testimonial-location">' .
             esc_html($location) .
             '</p>'
-            : '';
+            : 'USA';
     }
 
     if ($atts['field'] === 'rating') {
