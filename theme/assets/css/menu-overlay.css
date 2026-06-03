@@ -1,0 +1,73 @@
+/* Full-screen overlay */
+.wp-block-navigation__responsive-container.is-menu-open {
+    background: #000 !important;
+    padding: 20px !important;
+}
+
+/* Container width */
+.wp-block-navigation__responsive-container-content {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+/* Main menu */
+.wp-block-navigation__responsive-container .wp-block-navigation__container {
+    width: 100%;
+    gap: 0 !important;
+}
+
+/* Menu items */
+.wp-block-navigation__responsive-container .wp-block-navigation-item {
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding: 24px 0;
+}
+
+/* Links */
+.wp-block-navigation__responsive-container .wp-block-navigation-item__content {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Submenu */
+.wp-block-navigation__submenu-container {
+    position: static !important;
+    width: 100% !important;
+    border: 0 !important;
+    background: transparent !important;
+    padding: 15px 0 0 15px !important;
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item {
+    border: 0;
+    padding: 10px 0;
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+/* Chevron alignment */
+.wp-block-navigation__submenu-icon {
+    margin-left: auto;
+}
+
+/* Close button */
+.wp-block-navigation__responsive-container-close {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Remove Gutenberg default spacing */
+.wp-block-navigation__responsive-container-content {
+    align-items: flex-start !important;
+}

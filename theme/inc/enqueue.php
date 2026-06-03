@@ -27,6 +27,13 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
+        'lawfirmpro-menu-overlay',
+        get_template_directory_uri() . '/assets/css/menu-overlay.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
         'lawfirmpro-faq',
         get_template_directory_uri() . '/assets/css/faq.css',
         array(),
