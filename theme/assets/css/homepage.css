@@ -18,4 +18,15 @@
         font-size: 48px !important;
         padding-right: 0px !important;
     }
+
+     .challanges-heading{
+        font-size: 40px !important;
+    }
+
+      .offers-heading{
+        font-size: 40px !important;
+    }
+    .offers-paragraph{
+        margin: 0px !important;
+    }
 }

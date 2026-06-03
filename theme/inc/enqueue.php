@@ -21,7 +21,7 @@ function lawfirmpro_enqueue_assets()
 
     wp_enqueue_style(
         'lawfirmpro-homepage-hero',
-        get_template_directory_uri() . '/assets/css/homepage-hero.css',
+        get_template_directory_uri() . '/assets/css/homepage.css',
         array(),
         $version
     );

@@ -11,12 +11,12 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"100px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:100px"><!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"center"}} -->
     <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-        <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
-            <h2 class="wp-block-heading has-text-align-center has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">How Can I Help You?</h2>
+        <div class="wp-block-group"><!-- wp:heading {"className":"offers-heading","style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
+            <h2 class="wp-block-heading has-text-align-center offers-heading has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">How Can I Help You?</h2>
             <!-- /wp:heading -->
 
-            <!-- wp:paragraph {"className":"is-style-default","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0px","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"margin":{"right":"350px","left":"350px"}},"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center is-style-default has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="margin-right:350px;margin-left:350px;font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px">Tempor ipsum efficitur posuere rutrum uspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
+            <!-- wp:paragraph {"className":"offers-paragraph","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0px","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"margin":{"right":"350px","left":"350px"}},"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+            <p class="has-text-align-center offers-paragraph has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="margin-right:350px;margin-left:350px;font-size:16px;font-style:normal;font-weight:400;letter-spacing:0px">Tempor ipsum efficitur posuere rutrum uspendisse mollis neque sed orci dignissim, in convallis dui molestie.</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
