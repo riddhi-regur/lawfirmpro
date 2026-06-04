@@ -5,7 +5,22 @@ document.addEventListener('DOMContentLoaded', function () {
 			.forEach(function (slider) {
 				const track = slider.querySelector('.wp-block-post-template');
 				if (!track) return;
+				const gridCols = getComputedStyle(track).gridTemplateColumns;
 
+				let columns = 1;
+
+				const match = gridCols.match(/repeat\((\d+),/);
+
+				if (match) {
+					columns = parseInt(match[1], 10);
+				}
+				const width = 100 / columns;
+
+				track.querySelectorAll(':scope > *').forEach((item) => {
+					item.style.flex = `0 0 ${width}%`;
+					item.style.maxWidth = `${width}%`;
+					item.style.boxSizing = 'border-box';
+				});
 				const slides = track.children;
 				if (slides.length === 0) return;
 
@@ -25,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				function getVisibleCardsCount() {
 					if (window.innerWidth <= 767) return 1;
 					if (window.innerWidth <= 991) return 2;
-					return 3;
+					return columns;
 				}
 
 				function getSlideWidth() {

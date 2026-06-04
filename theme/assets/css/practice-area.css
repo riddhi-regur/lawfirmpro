@@ -1,8 +1,8 @@
- .custom-posts-grid .wp-block-post-template {
+ /* .custom-posts-grid .wp-block-post-template {
         display: grid !important;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-    }
+    } */
 /* Pagination Wrapper */
 .wp-block-query-pagination {
     display: flex;
