@@ -27,6 +27,13 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
+        'lawfirmpro-practice-areas',
+        get_template_directory_uri() . '/assets/css/practice-area.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
         'lawfirmpro-menu-overlay',
         get_template_directory_uri() . '/assets/css/menu-overlay.css',
         array(),

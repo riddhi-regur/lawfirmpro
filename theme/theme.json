@@ -94,6 +94,11 @@
           "slug": "accent-7",
           "name": "tag",
           "color": "#BCBCBC"
+        },
+         {
+          "slug": "accent-8",
+          "name": "header separator",
+          "color": "#EBEBEB"
         }
       ],
       "duotone": [
