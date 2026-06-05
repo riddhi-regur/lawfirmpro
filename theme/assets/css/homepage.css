@@ -79,5 +79,9 @@ color: #FBC618;
     }
     .article-title{
         font-size: 16px !important;
+    } .testimonial-stars{
+
+text-align: center !important;
+
     }
 }
