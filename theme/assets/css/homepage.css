@@ -84,4 +84,10 @@ color: #FBC618;
 text-align: center !important;
 
     }
+    .contact-form{
+        order: 1 !important;
+    }
+    .contact-map{
+        order: 2 !important;
+    }
 }
