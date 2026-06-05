@@ -101,6 +101,13 @@
          
     }
 
+     .blog-detail-heading{
+        font-size: 24px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+         
+    }
+
     .practice-area-post-tile {
         font-size: 20px !important;
          line-height: 1.1 !important;
