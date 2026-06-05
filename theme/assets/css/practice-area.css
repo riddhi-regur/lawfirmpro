@@ -112,6 +112,13 @@
     .practice-area-post-image img{
         height: 186px !important;
     }
+    .practice-area-homepage-post-image{
+        height: auto !important;
+    }
+
+    .practice-area-homepage-post-image img{
+        height: auto !important;
+    }
 
     .custom-posts-grid .wp-block-post-template {
         display: grid !important;
