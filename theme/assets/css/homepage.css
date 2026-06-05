@@ -90,4 +90,7 @@ text-align: center !important;
     .contact-map{
         order: 2 !important;
     }
+    .about-contact{
+        justify-content: center !important;
+    }
 }

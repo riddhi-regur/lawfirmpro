@@ -32,8 +32,8 @@
             <!-- /wp:column -->
 
             <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                <div class="wp-block-group"><!-- wp:image {"id":117,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"20px"}}} -->
+            <div class="wp-block-column"><!-- wp:group {"className":"about-contact","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group about-contact"><!-- wp:image {"id":117,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"20px"}}} -->
                     <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/call-header-1.png" alt="" class="wp-image-117" /></figure>
                     <!-- /wp:image -->
 

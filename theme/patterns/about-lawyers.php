@@ -11,8 +11,8 @@
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|0"}}}} -->
-    <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+    <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","className":"contact-map"} -->
+        <div class="wp-block-column is-vertically-aligned-center contact-map"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group"><!-- wp:heading {"className":"practice-area-heading ","style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.2"},"spacing":{"margin":{"right":"var:preset|spacing|lg"}}},"fontFamily":"plus-jakarta-sans"} -->
                 <h2 class="wp-block-heading practice-area-heading has-plus-jakarta-sans-font-family" style="margin-right:var(--wp--preset--spacing--lg);font-size:48px;font-style:normal;font-weight:800;line-height:1.2">Lawyers by Your Side, Every Step</h2>
                 <!-- /wp:heading -->
@@ -25,8 +25,8 @@
         </div>
         <!-- /wp:column -->
 
-        <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:image {"id":793,"sizeSlug":"full","linkDestination":"none"} -->
+        <!-- wp:column {"className":"contact-form"} -->
+        <div class="wp-block-column contact-form"><!-- wp:image {"id":793,"sizeSlug":"full","linkDestination":"none"} -->
             <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/about-lawyers.png" alt="" class="wp-image-793" /></figure>
             <!-- /wp:image -->
         </div>
