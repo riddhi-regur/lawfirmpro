@@ -119,6 +119,10 @@
     .practice-area-post-image img{
         height: 186px !important;
     }
+    .service-detail-right-image img{
+        height: 15px !important;
+         width: 15px !important;
+    }
     .practice-area-homepage-post-image{
         height: auto !important;
     }
