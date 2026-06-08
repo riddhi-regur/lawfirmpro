@@ -34,8 +34,6 @@ img {
 }
 .cf7-row {
     display: flex;
-    gap: 24px;
-    margin-bottom: 12px;
 }
 
 .cf7-col {
@@ -73,7 +71,7 @@ img {
     max-width: 100% !important;
     box-sizing: border-box;
     border: none !important;
-    border-bottom: 1.5px solid #000 !important;
+    border-bottom: 2px solid #393939 !important;
     background: transparent !important;
     padding: 10px 0 !important;
 }
