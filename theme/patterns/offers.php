@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"100px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:100px"><!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"center"}} -->
-    <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group" style="margin-top:100px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"center"}} -->
+    <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
         <div class="wp-block-group"><!-- wp:heading {"className":"offers-heading","style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","letterSpacing":"0px"}},"fontFamily":"plus-jakarta-sans"} -->
             <h2 class="wp-block-heading has-text-align-center offers-heading has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">How Can I Help You?</h2>
             <!-- /wp:heading -->
@@ -21,8 +21,8 @@
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:group {"className":"custom-post-slider","layout":{"type":"default"}} -->
-        <div class="wp-block-group custom-post-slider"><!-- wp:query {"queryId":117,"query":{"perPage":3,"pages":0,"offset":0,"postType":"offer","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
+        <!-- wp:group {"className":"custom-post-slider","layout":{"type":"constrained"}} -->
+        <div class="wp-block-group custom-post-slider"><!-- wp:query {"queryId":117,"query":{"perPage":100,"pages":0,"offset":0,"postType":"offer","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
             <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"customOverlayColor":"#8b7469","isUserOverlayColor":false,"contentPosition":"bottom center","layout":{"type":"constrained"}} -->
