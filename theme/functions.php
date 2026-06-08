@@ -271,4 +271,4 @@ require_once get_template_directory() . '/inc/cpt-testimonials.php';
 require_once get_template_directory() . '/inc/cpt-articles.php';
 require_once get_template_directory() . '/inc/cpt-faqs.php';
 require_once get_template_directory() . '/inc/cpt-about-firm.php';
-require_once get_template_directory() . '/inc/cpt-contacts.php';
+require_once get_template_directory() . '/inc/theme-options.php';
