@@ -764,6 +764,15 @@ body {
 .resize {
   resize: both;
 }
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.gap-3 {
+  gap: calc(var(--spacing) * 3);
+}
 .border {
   border-style: var(--tw-border-style);
   border-width: 1px;

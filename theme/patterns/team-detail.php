@@ -10,9 +10,9 @@
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}}} -->
-    <div class="wp-block-columns" style="padding-top:50px;padding-bottom:50px"><!-- wp:column {"width":""} -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
-            <div class="wp-block-group"><!-- wp:post-title {"className":"practice-area-heading","style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"800"}},"fontFamily":"plus-jakarta-sans"} /-->
+    <div class="wp-block-columns" style="padding-top:50px;padding-bottom:50px"><!-- wp:column {"width":"60%"} -->
+        <div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0","padding":{"right":"80px"}}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
+            <div class="wp-block-group" style="padding-right:80px"><!-- wp:post-title {"className":"practice-area-heading","style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"800"}},"fontFamily":"plus-jakarta-sans"} /-->
 
                 <!-- wp:post-excerpt {"showMoreOnNewLine":false,"className":"practice-area-paragraph","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} /-->
 
@@ -23,43 +23,56 @@
                 <!-- wp:paragraph {"className":"practice-area-paragraph","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
                 <p class="practice-area-paragraph has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Quisque id lorem risus. Curabitur id luctus quam rhoncus ultrices tortor sed volutpat arcu feugiat urabitur mattis vehicula ligula, non commodo massa auctor lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque eu sagittis dui.</p>
                 <!-- /wp:paragraph -->
-
-                <!-- wp:columns -->
-                <div class="wp-block-columns"><!-- wp:column -->
-                    <div class="wp-block-column"><!-- wp:query {"queryId":35,"query":{"perPage":2,"pages":0,"offset":0,"postType":"contact","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
-                        <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"grid","columnCount":2}} -->
-                            <!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                            <div class="wp-block-group" style="padding-top:20px;padding-bottom:20px"><!-- wp:post-featured-image {"width":"","height":"","overlayColor":"custom-cecece","style":{"color":{"duotone":"var:preset|duotone|dark-grayscale"}}} /-->
-
-                                <!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":10,"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"700"}},"fontFamily":"plus-jakarta-sans"} /-->
-                            </div>
-                            <!-- /wp:group -->
-                            <!-- /wp:post-template -->
-                        </div>
-                        <!-- /wp:query -->
-                    </div>
-                    <!-- /wp:column -->
-
-                    <!-- wp:column -->
-                    <div class="wp-block-column"><!-- wp:social-links {"iconColor":"custom-464646","iconColorValue":"#464646","className":"is-style-logos-only"} -->
-                        <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-
-                            <!-- wp:social-link {"url":"https://www.facebook.com/","service":"twitter"} /-->
-
-                            <!-- wp:social-link {"url":"https://www.facebook.com/","service":"linkedin"} /-->
-                        </ul>
-                        <!-- /wp:social-links -->
-                    </div>
-                    <!-- /wp:column -->
-                </div>
-                <!-- /wp:columns -->
             </div>
             <!-- /wp:group -->
+
+            <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":{"top":"var:preset|spacing|0","left":"20px"},"margin":{"top":"50px","bottom":"50px"}},"border":{"width":"2px"}},"borderColor":"accent-8"} -->
+            <div class="wp-block-columns are-vertically-aligned-center has-border-color has-accent-8-border-color" style="border-width:2px;margin-top:50px;margin-bottom:50px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center"} -->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
+                    <div class="wp-block-group"><!-- wp:image {"id":2036,"sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
+                        <figure class="wp-block-image size-full is-style-default"><img src="http://lawfirmpro.local/wp-content/uploads/2026/06/Group-2354.png" alt="" class="wp-image-2036" /></figure>
+                        <!-- /wp:image -->
+
+                        <!-- wp:shortcode -->
+                        [lawfirmpro_phone]
+                        <!-- /wp:shortcode -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:column -->
+
+                <!-- wp:column {"verticalAlignment":"center"} -->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
+                    <div class="wp-block-group"><!-- wp:image {"id":2037,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
+                        <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/Group-2355.png" alt="" class="wp-image-2037" /></figure>
+                        <!-- /wp:image -->
+
+                        <!-- wp:shortcode -->
+                        [lawfirmpro_email]
+                        <!-- /wp:shortcode -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:column -->
+
+                <!-- wp:column {"verticalAlignment":"center"} -->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"custom-464646","iconColorValue":"#464646","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+                    <ul class="wp-block-social-links aligncenter has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+
+                        <!-- wp:social-link {"url":"https://www.facebook.com/","service":"twitter"} /-->
+
+                        <!-- wp:social-link {"url":"https://www.facebook.com/","service":"linkedin"} /-->
+                    </ul>
+                    <!-- /wp:social-links -->
+                </div>
+                <!-- /wp:column -->
+            </div>
+            <!-- /wp:columns -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:post-featured-image {"width":"","height":""} /--></div>
+        <div class="wp-block-column"><!-- wp:post-featured-image {"width":"491px","height":"565px"} /--></div>
         <!-- /wp:column -->
     </div>
     <!-- /wp:columns -->
