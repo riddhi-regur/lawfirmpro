@@ -14,11 +14,11 @@
         <h2 class="wp-block-heading has-text-align-center testimonial-heading has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">Real Stories from Real Clients</h2>
         <!-- /wp:heading -->
 
-        <!-- wp:group {"className":"custom-post-slider","layout":{"type":"default"}} -->
-        <div class="wp-block-group custom-post-slider"><!-- wp:query {"queryId":117,"query":{"perPage":3,"pages":0,"offset":0,"postType":"testimonial","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
+        <!-- wp:group {"className":"custom-posts-grid","layout":{"type":"constrained"}} -->
+        <div class="wp-block-group custom-posts-grid"><!-- wp:query {"queryId":117,"query":{"perPage":100,"pages":0,"offset":0,"postType":"testimonial","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
             <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
-                <!-- wp:group {"className":"testimonial-card","style":{"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-                <div class="wp-block-group testimonial-card" style="border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+                <!-- wp:group {"className":"testimonial-card","style":{"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+                <div class="wp-block-group testimonial-card" style="border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
                     <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                         <div class="wp-block-group"><!-- wp:post-title {"textAlign":"left","className":"testimonial-post-text","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase","fontSize":"16px"}},"fontFamily":"plus-jakarta-sans"} /-->
 
@@ -38,7 +38,7 @@
                     [testimonial_meta field="rating"]
                     <!-- /wp:shortcode -->
 
-                    <!-- wp:post-excerpt {"textAlign":"left","moreText":"","excerptLength":30,"className":"testimonial-post-text","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px"},"layout":{"selfStretch":"fixed","flexSize":""},"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} /-->
+                    <!-- wp:post-excerpt {"textAlign":"left","moreText":"","excerptLength":30,"className":"testimonial-post-text","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1","letterSpacing":"0px"},"layout":{"selfStretch":"fixed","flexSize":""},"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"spacing":{"padding":{"right":"40px"}}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} /-->
                 </div>
                 <!-- /wp:group -->
                 <!-- /wp:post-template -->
