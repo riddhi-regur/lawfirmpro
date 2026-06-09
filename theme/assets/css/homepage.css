@@ -1,96 +1,107 @@
-  .testimonial-location{
+  .testimonial-location {
 
-font-family: 'Plus Jakarta Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 15px;
-text-transform: uppercase;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
 
-color: #464646;
+      color: #464646;
 
 
-    }
-    .testimonial-stars{
+  }
 
-color: #FBC618;
+  .testimonial-stars {
 
-    }
-@media (max-width: 768px) {
+      color: #FBC618;
 
-     .hero-cover .wp-block-cover__image-background {
-        display: none;
-    }
+  }
 
-    .hero-cover {
-        background-image: url('/wp-content/uploads/2026/06/hero-mobile.png');
-        background-size: cover;
-        background-position: center;
-    }
+  @media (max-width: 768px) {
 
-    .wp-block-group.hero-content-stack {
-        padding-top: 50px !important;
-    }
+      .hero-cover .wp-block-cover__image-background {
+          display: none;
+      }
 
-    .hero-content-heading{
-        font-size: 48px !important;
-        padding-right: 0px !important;
-    }
-     .hero1-content-heading{
-        font-size: 48px !important;
-        padding: 0px !important;
-    }
+      .hero-cover {
+          background-image: url('/wp-content/uploads/2026/06/hero-mobile.png');
+          background-size: cover;
+          background-position: center;
+      }
 
-     .challanges-heading{
-        font-size: 40px !important;
-    }
+      .wp-block-group.hero-content-stack {
+          padding-top: 50px !important;
+      }
 
-      .offers-heading{
-        font-size: 40px !important;
-    }
-    .offers-paragraph{
-        margin: 0px !important;
-    }
+      .hero-content-heading {
+          font-size: 48px !important;
+          padding-right: 0px !important;
+      }
 
-    .wp-block-group.is-layout-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-    }
-    .calculations-heading{
-        font-size: 40px !important;
-    }
-    .testimonial-heading{
-        font-size: 40px !important;
-    }
-    .testimonial-post-text{
-        font-size: 16px !important;
-    }
-   .faq-heading{
-        font-size: 40px !important;
-    }
-    .contat-heading{
-        font-size: 40px !important;
-    }
-    .contact-para{
-        font-size: 16px !important;
-        padding-right: 0px !important;
-    }
-    .article-heading{
-        font-size: 40px !important;
-    }
-    .article-title{
-        font-size: 16px !important;
-    } .testimonial-stars{
+      .hero1-content-heading {
+          font-size: 48px !important;
+          padding: 0px !important;
+      }
 
-text-align: center !important;
+      .challanges-heading {
+          font-size: 40px !important;
+      }
 
-    }
-    .contact-form{
-        order: 1 !important;
-    }
-    .contact-map{
-        order: 2 !important;
-    }
-    .about-contact{
-        justify-content: center !important;
-    }
-}
+      .offers-heading {
+          font-size: 40px !important;
+      }
+
+      .offers-paragraph {
+          margin: 0px !important;
+      }
+
+      .wp-block-group.is-layout-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+      }
+
+      .calculations-heading {
+          font-size: 40px !important;
+      }
+
+      .testimonial-heading {
+          font-size: 40px !important;
+      }
+
+      .testimonial-post-text {
+          font-size: 16px !important;
+      }
+
+      .faq-heading {
+          font-size: 40px !important;
+      }
+
+      .contat-heading {
+          font-size: 40px !important;
+      }
+
+      .contact-para {
+          font-size: 16px !important;
+          padding-right: 0px !important;
+      }
+
+      .article-heading {
+          font-size: 40px !important;
+      }
+
+      .article-title {
+          font-size: 16px !important;
+      }
+
+      .contact-form {
+          order: 1 !important;
+      }
+
+      .contact-map {
+          order: 2 !important;
+      }
+
+      .about-contact {
+          justify-content: center !important;
+      }
+  }

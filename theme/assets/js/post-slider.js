@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		const DRAG_THRESHOLD = 50;
 
 		function getColumns() {
-			if (window.innerWidth <= 767) return 1;
-			if (window.innerWidth <= 991) return 2;
+			if (window.innerWidth <= 767) return 1.2;
+			if (window.innerWidth <= 991) return 2.2;
 
 			const gridCols = getComputedStyle(track).gridTemplateColumns;
 			const cols = gridCols.split(' ').length;
