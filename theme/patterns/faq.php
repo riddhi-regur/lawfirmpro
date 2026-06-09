@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-accent-5-background-color has-background" style="margin-top:50px;margin-bottom:50px"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-    <div class="wp-block-group alignwide"><!-- wp:columns -->
+<div class="wp-block-group has-accent-5-background-color has-background" style="margin-top:50px;margin-bottom:50px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group"><!-- wp:columns -->
         <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
             <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"className":"faq-heading","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"48px","lineHeight":"1.1","letterSpacing":"0px"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
                 <h2 class="wp-block-heading faq-heading has-plus-jakarta-sans-font-family" style="padding-bottom:20px;font-size:48px;font-style:normal;font-weight:700;letter-spacing:0px;line-height:1.1">Frequently Asked Questions</h2>
@@ -34,7 +34,7 @@
             <!-- /wp:column -->
 
             <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:image {"id":356,"style":{"color":{}}} -->
+            <div class="wp-block-column"><!-- wp:image {"id":356,"style":{"color":[]}} -->
                 <figure class="wp-block-image"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/faq.png" alt="" class="wp-image-356" /></figure>
                 <!-- /wp:image -->
             </div>

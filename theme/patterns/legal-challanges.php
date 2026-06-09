@@ -8,8 +8,8 @@
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"100px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:100px;margin-bottom:0px"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}}} -->
-    <div class="wp-block-columns alignwide" style="margin-top:50px;margin-bottom:50px"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-group" style="margin-top:100px;margin-bottom:0px"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}}} -->
+    <div class="wp-block-columns" style="margin-top:50px;margin-bottom:50px"><!-- wp:column {"verticalAlignment":"center"} -->
         <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group"><!-- wp:paragraph {"className":"challanges-heading","style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"300","lineHeight":"1","letterSpacing":"0px"},"spacing":{"margin":{"bottom":"0px"}}},"fontFamily":"plus-jakarta-sans"} -->
                 <p class="challanges-heading has-plus-jakarta-sans-font-family" style="margin-bottom:0px;font-size:48px;font-style:normal;font-weight:300;letter-spacing:0px;line-height:1">Trusted in</p>
