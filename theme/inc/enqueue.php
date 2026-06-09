@@ -48,6 +48,13 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
+        'lawfirmpro-comments',
+        get_template_directory_uri() . '/assets/css/comments.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
         'lawfirmpro-post-slider',
         get_theme_file_uri('/assets/css/post-slider.css'),
         array(),

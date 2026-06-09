@@ -768,6 +768,9 @@ body {
   border-style: var(--tw-border-style);
   border-width: 1px;
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .uppercase {
   text-transform: uppercase;
 }

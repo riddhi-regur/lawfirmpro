@@ -272,3 +272,5 @@ require_once get_template_directory() . '/inc/cpt-articles.php';
 require_once get_template_directory() . '/inc/cpt-faqs.php';
 require_once get_template_directory() . '/inc/cpt-about-firm.php';
 require_once get_template_directory() . '/inc/theme-options.php';
+require_once get_template_directory() . '/inc/comments-form.php';
+require_once get_template_directory() . '/inc/comments-contact-meta.php';
