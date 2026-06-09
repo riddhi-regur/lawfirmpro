@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			if (window.innerWidth <= 991) return 2.2;
 
 			const gridCols = getComputedStyle(track).gridTemplateColumns;
-			const cols = gridCols.split(' ').length;
+			const cols = gridCols.match(/repeat\((\d+),/)?.[1];
 
 			return cols || 3;
 		}

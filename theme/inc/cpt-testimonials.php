@@ -154,3 +154,79 @@ add_shortcode(
     'testimonial_meta',
     'lawfirmpro_testimonial_meta_shortcode'
 );
+
+/**
+
+ * Testimonial Meta Shortcode v2
+ *
+ * Usage:
+ * [testimonial_meta_v2 field="location"]
+ * [testimonial_meta_v2 field="rating"]
+ */
+
+function lawfirmpro_testimonial_meta_shortcode_v2($atts)
+{
+    $atts = shortcode_atts(
+        array(
+            'field' => '',
+        ),
+        $atts,
+        'testimonial_meta'
+    );
+
+    $post_id = get_the_ID();
+
+    if (!$post_id) {
+        return '';
+    }
+
+    switch ($atts['field']) {
+
+        case 'location':
+
+            $location = get_post_meta(
+                $post_id,
+                '_testimonial_location',
+                true
+            );
+
+            return sprintf(
+                '<p class="testimonial-location-v2">%s</p>',
+                esc_html(
+                    !empty($location)
+                        ? $location
+                        : __('USA', 'lawfirmpro')
+                )
+            );
+
+        case 'rating':
+
+            $rating = (int) get_post_meta(
+                $post_id,
+                '_testimonial_rating',
+                true
+            );
+
+            $rating = max(
+                1,
+                min(
+                    5,
+                    $rating ?: 5
+                )
+            );
+
+            return sprintf(
+                '<div class="testimonial-stars-v2" aria-label="%d out of 5 stars">%s</div>',
+                $rating,
+                esc_html(str_repeat('★', $rating))
+            );
+
+        default:
+            return '';
+    }
+}
+
+add_shortcode(
+    'testimonial_meta_v2',
+    'lawfirmpro_testimonial_meta_shortcode_v2'
+);

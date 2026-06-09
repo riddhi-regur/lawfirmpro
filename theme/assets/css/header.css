@@ -36,4 +36,9 @@
         border: 1px solid #000;
         border-radius: 50%;
     }
+
+    .header-v2-row{
+        padding-left: 10px !important;
+         padding-right: 10px !important;
+    }
 }
