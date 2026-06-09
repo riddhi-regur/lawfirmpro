@@ -55,6 +55,13 @@ function lawfirmpro_enqueue_assets()
     );
 
     wp_enqueue_style(
+        'lawfirmpro-testimonial',
+        get_template_directory_uri() . '/assets/css/testimonial.css',
+        array(),
+        $version
+    );
+
+    wp_enqueue_style(
         'lawfirmpro-post-slider',
         get_theme_file_uri('/assets/css/post-slider.css'),
         array(),
@@ -72,6 +79,14 @@ function lawfirmpro_enqueue_assets()
     wp_enqueue_script(
         'lawfirmpro-post-slider',
         get_theme_file_uri('/assets/js/post-slider.js'),
+        [],
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'lawfirmpro-testimonial',
+        get_theme_file_uri('/assets/js/testimonial-slider.js'),
         [],
         null,
         true
