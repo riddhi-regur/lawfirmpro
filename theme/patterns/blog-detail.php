@@ -20,7 +20,7 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}},"border":{"top":{"color":"var:preset|color|accent-2","width":"1px"},"right":{},"bottom":{},"left":{}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}},"border":{"top":{"color":"var:preset|color|accent-2","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"flex","orientation":"vertical"}} -->
     <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--accent-2);border-top-width:1px;padding-top:50px;padding-bottom:50px"><!-- wp:heading {"align":"wide","className":"practice-area-heading","style":{"typography":{"textAlign":"left","fontSize":"48px","fontStyle":"normal","fontWeight":"800"},"layout":{"selfStretch":"fit","flexSize":null}},"fontFamily":"plus-jakarta-sans"} -->
         <h2 class="wp-block-heading has-text-align-left alignwide practice-area-heading has-plus-jakarta-sans-font-family" style="font-size:48px;font-style:normal;font-weight:800">How Legal Changes Impact Your Case</h2>
         <!-- /wp:heading -->
@@ -33,15 +33,15 @@
         <div class="wp-block-columns"><!-- wp:column -->
             <div class="wp-block-column"><!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent"} -->
                 <ul class="wp-block-list has-accent-color has-text-color has-link-color"><!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Maecenas dignissim nisi convallis placerat</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Maecenas dignissim nisi convallis placerat</li>
                     <!-- /wp:list-item -->
 
-                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Quis sem cursus nullam efficitur nisl</li>
+                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Quis sem cursus nullam efficitur nisl</li>
                     <!-- /wp:list-item -->
 
-                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Vivamus nisl consectetur quis scelerisque</li>
+                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Vivamus nisl consectetur quis scelerisque</li>
                     <!-- /wp:list-item -->
                 </ul>
                 <!-- /wp:list -->
@@ -50,16 +50,16 @@
 
             <!-- wp:column -->
             <div class="wp-block-column"><!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent"} -->
-                <ul class="wp-block-list has-accent-color has-text-color has-link-color"><!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Vestibul accumsan pulvinar felis dignissim</li>
+                <ul class="wp-block-list has-accent-color has-text-color has-link-color"><!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Vestibul accumsan pulvinar felis dignissim</li>
                     <!-- /wp:list-item -->
 
-                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Tristique ligula lorem suscipit consectetur</li>
+                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Tristique ligula lorem suscipit consectetur</li>
                     <!-- /wp:list-item -->
 
-                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-464646"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"custom-464646","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-custom-464646-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400">Fusce ligula elementum fermentu</li>
+                    <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400"> ✓ Fusce ligula elementum fermentum quam</li>
                     <!-- /wp:list-item -->
                 </ul>
                 <!-- /wp:list -->
@@ -101,8 +101,8 @@
     <!-- wp:columns {"isStackedOnMobile":false} -->
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":""}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"wrap"}} -->
-            <div class="wp-block-group"><!-- wp:image {"id":1013,"sizeSlug":"full","linkDestination":"none"} -->
-                <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/appereance.png" alt="" class="wp-image-1013" /></figure>
+            <div class="wp-block-group"><!-- wp:image {"id":1013,"width":"700px","height":"408px","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"blog-detail-img","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
+                <figure class="wp-block-image size-full is-resized blog-detail-img"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/appereance.png" alt="" class="wp-image-1013" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"className":"practice-area-paragraph","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"32px"},"spacing":{"margin":{"right":"200px"}}},"fontFamily":"plus-jakarta-sans"} -->
@@ -119,8 +119,8 @@
 
         <!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-            <div class="wp-block-group"><!-- wp:image {"id":1001,"sizeSlug":"full","linkDestination":"none","align":"left"} -->
-                <figure class="wp-block-image alignleft size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/personal-injuryclaim.png" alt="" class="wp-image-1001" /></figure>
+            <div class="wp-block-group"><!-- wp:image {"id":1001,"width":"700px","height":"408px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"left","className":"blog-detail-img","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
+                <figure class="wp-block-image alignleft size-full is-resized blog-detail-img"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/personal-injuryclaim.png" alt="" class="wp-image-1001" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"className":"practice-area-paragraph","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"32px"},"spacing":{"margin":{"right":"200px"}}},"fontFamily":"plus-jakarta-sans"} -->

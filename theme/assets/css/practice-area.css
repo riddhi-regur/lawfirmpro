@@ -86,6 +86,7 @@
 .wp-block-query-pagination .wp-block-query-pagination-previous-arrow {
     display: none;margin: 0 !important;
 }
+
 @media (max-width: 768px) {
     .practice-area-heading {
         font-size: 40px !important;
@@ -136,4 +137,7 @@
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 20px;
     }
+    .blog-detail-img img{
+    width: 186px !important;
+    height: auto    !important;}
 }
