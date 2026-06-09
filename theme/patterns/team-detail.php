@@ -28,8 +28,8 @@
 
             <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":{"top":"var:preset|spacing|0","left":"20px"},"margin":{"top":"50px","bottom":"50px"}},"border":{"width":"2px"}},"borderColor":"accent-8"} -->
             <div class="wp-block-columns are-vertically-aligned-center has-border-color has-accent-8-border-color" style="border-width:2px;margin-top:50px;margin-bottom:50px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center"} -->
-                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
-                    <div class="wp-block-group"><!-- wp:image {"id":2036,"sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontFamily":"plus-jakarta-sans","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"left"}} -->
+                    <div class="wp-block-group has-plus-jakarta-sans-font-family" style="font-style:normal;font-weight:700"><!-- wp:image {"id":2036,"sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
                         <figure class="wp-block-image size-full is-style-default"><img src="http://lawfirmpro.local/wp-content/uploads/2026/06/Group-2354.png" alt="" class="wp-image-2036" /></figure>
                         <!-- /wp:image -->
 
@@ -42,8 +42,8 @@
                 <!-- /wp:column -->
 
                 <!-- wp:column {"verticalAlignment":"center"} -->
-                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
-                    <div class="wp-block-group"><!-- wp:image {"id":2037,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontFamily":"plus-jakarta-sans","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"left"}} -->
+                    <div class="wp-block-group has-plus-jakarta-sans-font-family" style="font-style:normal;font-weight:700"><!-- wp:image {"id":2037,"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
                         <figure class="wp-block-image size-full"><img src="http://lawfirmpro.local/wp-content/uploads/2026/05/Group-2355.png" alt="" class="wp-image-2037" /></figure>
                         <!-- /wp:image -->
 
@@ -56,8 +56,8 @@
                 <!-- /wp:column -->
 
                 <!-- wp:column {"verticalAlignment":"center"} -->
-                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"custom-464646","iconColorValue":"#464646","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
-                    <ul class="wp-block-social-links aligncenter has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+                <div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"custom-464646","iconColorValue":"#464646","className":"is-style-logos-only","style":{"spacing":{"margin":{"right":"20px","left":"20px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+                    <ul class="wp-block-social-links has-icon-color is-style-logos-only" style="margin-right:20px;margin-left:20px"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 
                         <!-- wp:social-link {"url":"https://www.facebook.com/","service":"twitter"} /-->
 
@@ -72,7 +72,15 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:post-featured-image {"width":"491px","height":"565px"} /--></div>
+        <div class="wp-block-column"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":false,"minHeight":565,"isDark":false,"layout":{"type":"constrained"}} -->
+            <div class="wp-block-cover is-light" style="min-height:565px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span>
+                <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}}} -->
+                    <p class="has-text-align-center"></p>
+                    <!-- /wp:paragraph -->
+                </div>
+            </div>
+            <!-- /wp:cover -->
+        </div>
         <!-- /wp:column -->
     </div>
     <!-- /wp:columns -->
